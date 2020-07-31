@@ -5,25 +5,45 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "dayjs": "^1.8.31",
+    "dotenv": "^8.2.0",
+    "electron-browser-storage": "^1.0.6",
+    "electron-store": "^6.0.0",
+    "feather-icons": "^4.28.0",
+    "localforage": "^1.8.1",
+    "node-fetch": "^2.6.0",
+    "snoowrap": "^1.21.0",
+    "snudown-js": "^3.1.10",
+    "vue": "^3.0.0-rc.4",
+    "vue-composable": "^1.0.0-beta.3",
+    "vue-router": "^4.0.0-beta.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.4.0",
-    "@vue/cli-plugin-eslint": "~4.4.0",
-    "@vue/cli-plugin-router": "~4.4.0",
-    "@vue/cli-plugin-vuex": "~4.4.0",
-    "@vue/cli-service": "~4.4.0",
-    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@tailwindcss/ui": "^0.4.0",
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-eslint": "^4.4.6",
+    "@vue/cli-plugin-router": "^4.4.6",
+    "@vue/cli-plugin-vuex": "^4.4.6",
+    "@vue/cli-service": "^4.4.6",
+    "@vue/compiler-sfc": "^3.0.0-rc.4",
+    "@vue/eslint-config-airbnb": "^5.1.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "electron": "^9.1.1",
+    "electron-devtools-installer": "^3.1.1",
+    "eslint": "^7.5.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-vue": "^7.0.0-beta.0",
+    "tailwindcss": "^1.5.2",
+    "tailwindcss-filters": "^3.0.0",
+    "vue-cli-plugin-electron-builder": "^2.0.0-rc.4",
+    "vue-cli-plugin-vue-next": "~0.1.3"
   }
 }

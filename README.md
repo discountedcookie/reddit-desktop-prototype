@@ -1,6 +1,9 @@
-# viewer-for-reddit
-
 ## Project setup
+### Set your credentials
+- Create a reddit app https://www.reddit.com/prefs/apps/
+- Copy the `.env.example` file as `.env` and fill it with your values
+
+### Install dependencies
 ```
 yarn install
 ```
