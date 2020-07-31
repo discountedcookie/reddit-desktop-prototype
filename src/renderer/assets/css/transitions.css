@@ -1,0 +1,25 @@
+.fade-enter-active,
+.fade-leave-active {
+  @apply
+    duration-500
+    transition;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  @apply opacity-0;
+}
+
+.slide-up-enter-active,
+.slide-up-leave-active {
+  @apply
+    duration-500
+    transition;
+}
+
+.slide-up-enter-from,
+.slide-up-leave-to {
+  @apply
+    transform
+    -translate-y-full;
+}
