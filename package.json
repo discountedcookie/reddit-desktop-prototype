@@ -19,7 +19,7 @@
     "electron-store": "^6.0.0",
     "feather-icons": "^4.28.0",
     "localforage": "^1.8.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "snoowrap": "^1.21.0",
     "snudown-js": "^3.1.10",
     "vue": "^3.0.0-rc.4",
